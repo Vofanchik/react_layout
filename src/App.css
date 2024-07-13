@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 990px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-switch {
+    width: 990px;
+    padding: 30px;
+    text-align: right;
+}
+
+.material-icons {
+    color: rgb(220, 211, 211);
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.cards-view {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(245, 245, 245);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.shop-card img {
+    width: 180px;
+}
+
+.shop-card-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-view {
+    width: 960px;
+}
+
+.price {
+    color: red;
+}
+
+.cart-btn {
+    text-transform: uppercase;
+    color: red;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+
+.list-view-item {
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-view-item img {
+    height: 100px;
+}
+
+.list-view-item-img {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.list-view-name {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.list-view-color {
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.list-view-price {
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.list-view-cart-btn {
+    flex-basis: 20%;
+    text-align: center;
+}
